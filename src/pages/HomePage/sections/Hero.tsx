@@ -5,8 +5,8 @@ import React from 'react';
 import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarousel';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 
-export default function HeroSection(): React.JSX.Element {
-  return (
+export default function HeroSection): React.JSX.Element {
+  return 
     <div id="hero" data-section="hero">
         <SectionErrorBoundary name="hero">
               <HeroBillboardCarousel
