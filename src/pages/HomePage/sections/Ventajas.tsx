@@ -5,8 +5,8 @@ import React from 'react';
 import MetricsSimpleCards from '@/components/sections/metrics/MetricsSimpleCards';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 
-export default function VentajasSection): React.JSX.Element {
-  return 
+export default function VentajasSection(): React.JSX.Element {
+  return (
     <div id="ventajas" data-section="ventajas">
         <SectionErrorBoundary name="ventajas">
               <MetricsSimpleCards
