@@ -15,7 +15,7 @@ export default function ServiciosSection(): React.JSX.Element {
           description="Soluciones digitales de alto impacto para negocios ambiciosos."
           items={[
             { title: "Diseño web", description: "Diseños a medida que destacan tu marca profesionalmente.", href: "#", imageSrc: "https://storage.googleapis.com/webild/users/user_3Fp4xaa76hoCedVVjKM5K4THBWm/uploaded-1782762351328-hlhe4ofv.jpg" },
-            { title: "Tiendas online", description: "E-commerce optimizados para maximizar las ventas y conversiones.", href: "#", imageSrc: "http://img.b2bpic.net/free-photo/hands-working-digital-device-network-graphic-overlay_53876-124922.jpg" },
+            { title: "Tiendas online", description: "E-commerce optimizados para maximizar las ventas y conversiones.", href: "#", imageSrc: "https://storage.googleapis.com/webild/users/user_3Fp4xaa76hoCedVVjKM5K4THBWm/uploaded-1782762413005-7patmfyt.jpg" },
             { title: "Landing Pages", description: "Páginas diseñadas específicamente para atraer y convertir clientes.", href: "#", imageSrc: "http://img.b2bpic.net/free-photo/innovation-development-rocket-graphic-concept_53876-120019.jpg" },
             { title: "Optimización SEO", description: "Posicionamiento en buscadores para atraer tráfico de calidad.", href: "#", imageSrc: "http://img.b2bpic.net/free-photo/rocket-ship-launching-symbol-green-paper_53876-144724.jpg" },
             { title: "Diseño Responsive", description: "Adaptabilidad total en todos los dispositivos modernos.", href: "#", imageSrc: "http://img.b2bpic.net/free-photo/laptop-wooden-desk-with-social-media-diagram_1134-64.jpg" },
