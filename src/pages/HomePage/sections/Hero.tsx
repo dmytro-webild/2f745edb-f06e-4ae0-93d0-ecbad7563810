@@ -22,7 +22,7 @@ export default function HeroSection(): React.JSX.Element {
             { imageSrc: "http://img.b2bpic.net/free-photo/computer-laptop-phone-screen-with-abstract-marble-aesthetic_53876-153479.jpg" },
             { imageSrc: "http://img.b2bpic.net/free-vector/gradient-ui-ux-landing-page_52683-69729.jpg" },
             { imageSrc: "http://img.b2bpic.net/free-photo/man-switching-bulbs-using-voice-command-tablet_482257-8730.jpg" },
-            { imageSrc: "http://img.b2bpic.net/free-psd/dark-new-year-resolutions-landing-page-template_23-2149128905.jpg" },
+            { imageSrc: "https://images.pexels.com/photos/5583972/pexels-photo-5583972.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=5583972" },
             { imageSrc: "http://img.b2bpic.net/free-photo/person-working-laptop-cafe-with-coffee_9975-24570.jpg" },
           ]}
         />
