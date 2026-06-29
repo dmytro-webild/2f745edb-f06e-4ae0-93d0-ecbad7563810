@@ -15,7 +15,7 @@ export default function ContactoSection(): React.JSX.Element {
           primaryButton={{
             text: "Solicitar presupuesto",        href: "mailto:contacto@ivandisenoweb.com"}}
           secondaryButton={{
-            text: "",        href: ""}}
+            text: "WhatsApp",        href: ""}}
         />
         </SectionErrorBoundary>
       </div>
