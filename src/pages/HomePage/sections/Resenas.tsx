@@ -44,7 +44,7 @@ export default function ResenasSection(): React.JSX.Element {
             <TestimonialTrustCard
               quote="Nota: Estas reseñas son ejemplos de diseño y deberán ser reemplazadas por testimonios reales de clientes."
               rating={5}
-              author="Reseñas demostrativas (reemplazar)"
+              author="Reseñas demostrativas "
               avatars={[
                 { name: "Carlos M.", imageSrc: "http://img.b2bpic.net/free-photo/smiling-african-american-girl-sitting-cafe_1262-3083.jpg" },
                 { name: "Laura G.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-waitress-standing-with-disposable-coffee-cup_107420-12313.jpg" },
