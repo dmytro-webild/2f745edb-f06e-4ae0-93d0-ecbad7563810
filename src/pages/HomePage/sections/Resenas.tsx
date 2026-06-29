@@ -7,20 +7,53 @@ import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 
 export default function ResenasSection(): React.JSX.Element {
   return (
-    <div id="resenas" data-section="resenas">
+    <div id="resenas" data-section="resenas" className="py-24 bg-background">
         <SectionErrorBoundary name="resenas">
-              <TestimonialTrustCard
-          quote="Nota: Estas reseñas son ejemplos de diseño y deberán ser reemplazadas por testimonios reales de clientes."
-          rating={5}
-          author="Reseñas demostrativas (reemplazar)"
-          avatars={[
-            { name: "Carlos M.", imageSrc: "http://img.b2bpic.net/free-photo/smiling-african-american-girl-sitting-cafe_1262-3083.jpg" },
-            { name: "Laura G.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-waitress-standing-with-disposable-coffee-cup_107420-12313.jpg" },
-            { name: "Sergio P.", imageSrc: "http://img.b2bpic.net/free-photo/business-woman-posing-street_23-2148213514.jpg" },
-            { name: "Marta R.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg" },
-            { name: "David H.", imageSrc: "http://img.b2bpic.net/free-photo/head-shot-happy-beautiful-young-woman-posing-indoors-looking-camera-smiling_74855-10218.jpg" },
-          ]}
-        />
+          <div className="w-content-width mx-auto flex flex-col gap-16">
+            <div className="text-center flex flex-col gap-4">
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground">Reseñas de ejemplo</h2>
+              <p className="text-accent/80">(sustituir por opiniones de clientes reales)</p>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="card p-8 flex flex-col gap-4">
+                <div className="flex text-yellow-500 text-xl">★★★★★</div>
+                <p className="text-foreground/80 italic leading-relaxed">"El resultado superó mis expectativas. La web tiene un diseño moderno, carga muy rápido y transmite mucha profesionalidad. La comunicación fue excelente durante todo el proceso."</p>
+                <p className="font-bold text-foreground mt-auto">Carlos M. – Tienda online</p>
+              </div>
+              
+              <div className="card p-8 flex flex-col gap-4">
+                <div className="flex text-yellow-500 text-xl">★★★★★</div>
+                <p className="text-foreground/80 italic leading-relaxed">"Necesitaba una página web elegante para mi negocio y el resultado fue espectacular. Todo quedó perfectamente adaptado a móviles y los clientes me felicitan por el diseño."</p>
+                <p className="font-bold text-foreground mt-auto">Laura G. – Centro de estética</p>
+              </div>
+
+              <div className="card p-8 flex flex-col gap-4">
+                <div className="flex text-yellow-500 text-xl">★★★★★</div>
+                <p className="text-foreground/80 italic leading-relaxed">"Un servicio impecable. Entendió a la perfección lo que buscábamos y lo plasmó en una web funcional y atractiva. Sin duda volveremos a trabajar juntos en el futuro."</p>
+                <p className="font-bold text-foreground mt-auto">Sergio P. – Agencia de marketing</p>
+              </div>
+
+              <div className="card p-8 flex flex-col gap-4">
+                <div className="flex text-yellow-500 text-xl">★★★★★</div>
+                <p className="text-foreground/80 italic leading-relaxed">"Gran profesionalidad y atención al detalle. La nueva página ha mejorado nuestra imagen de marca y hemos notado un incremento en las consultas a través de la web."</p>
+                <p className="font-bold text-foreground mt-auto">Marta R. – Consultoría</p>
+              </div>
+            </div>
+
+            <TestimonialTrustCard
+              quote="Nota: Estas reseñas son ejemplos de diseño y deberán ser reemplazadas por testimonios reales de clientes."
+              rating={5}
+              author="Reseñas demostrativas (reemplazar)"
+              avatars={[
+                { name: "Carlos M.", imageSrc: "http://img.b2bpic.net/free-photo/smiling-african-american-girl-sitting-cafe_1262-3083.jpg" },
+                { name: "Laura G.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-waitress-standing-with-disposable-coffee-cup_107420-12313.jpg" },
+                { name: "Sergio P.", imageSrc: "http://img.b2bpic.net/free-photo/business-woman-posing-street_23-2148213514.jpg" },
+                { name: "Marta R.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg" },
+                { name: "David H.", imageSrc: "http://img.b2bpic.net/free-photo/head-shot-happy-beautiful-young-woman-posing-indoors-looking-camera-smiling_74855-10218.jpg" },
+              ]}
+            />
+          </div>
         </SectionErrorBoundary>
       </div>
   );
