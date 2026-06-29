@@ -11,8 +11,8 @@ export default function ResenasSection(): React.JSX.Element {
         <SectionErrorBoundary name="resenas">
           <div className="w-content-width mx-auto flex flex-col gap-16">
             <div className="text-center flex flex-col gap-4">
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground">Reseñas de ejemplo</h2>
-              <p className="text-accent/80">(</p>
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground">Nuestras Reseñas </h2>
+              <p className="text-accent/80"></p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
