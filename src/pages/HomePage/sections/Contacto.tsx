@@ -5,8 +5,8 @@ import React from 'react';
 import ContactCta from '@/components/sections/contact/ContactCta';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 
-export default function ContactoSection): React.JSX.Element {
-  return 
+export default function ContactoSection(): React.JSX.Element {
+  return (
     <div id="contacto" data-section="contacto">
         <SectionErrorBoundary name="contacto">
               <ContactCta
