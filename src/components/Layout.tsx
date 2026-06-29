@@ -43,6 +43,7 @@ export default function Layout() {
       <SectionErrorBoundary name="navbar">
         <NavbarFloatingLogo
       logo="IvanDiseñoWeb"
+      logoImageSrc="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=128&h=128&fit=crop"
       ctaButton={{
         text: "Solicitar presupuesto",
         href: "#contacto",
