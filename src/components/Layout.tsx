@@ -22,7 +22,7 @@ export default function Layout() {
       <SectionErrorBoundary name="navbar">
         <NavbarFloatingLogo
       logo="IvanDiseñoWeb"
-      logoImageSrc="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?q=80&w=200&auto=format&fit=crop"
+      logoImageSrc="https://storage.googleapis.com/webild/users/user_3Fp4xaa76hoCedVVjKM5K4THBWm/uploaded-1782761562923-byhigggg.png"
       ctaButton={{
         text: "Solicitar presupuesto",        href: "#contacto"}}
      navItems={navItems} />
