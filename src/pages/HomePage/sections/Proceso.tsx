@@ -5,8 +5,8 @@ import React from 'react';
 import FeaturesBento from '@/components/sections/features/FeaturesBento';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 
-export default function ProcesoSection(): React.JSX.Element {
-  return (
+export default function ProcesoSection): React.JSX.Element {
+  return 
     <div id="proceso" data-section="proceso">
         <SectionErrorBoundary name="proceso">
               <FeaturesBento
