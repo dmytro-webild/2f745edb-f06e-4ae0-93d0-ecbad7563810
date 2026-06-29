@@ -14,7 +14,7 @@ export default function ServiciosSection(): React.JSX.Element {
           title="Servicios web integrales"
           description="Soluciones digitales de alto impacto para negocios ambiciosos."
           items={[
-            { title: "Diseño web", description: "Diseños a medida que destacan tu marca profesionalmente.", href: "#", imageSrc: "https://storage.googleapis.com/webild/users/user_3Fp4xaa76hoCedVVjKM5K4THBWm/uploaded-1782762351328-hlhe4ofv.jpg" },
+            { title: "Diseño web", description: "Diseños a medida que destacan tu marca profesionalmente.", href: "#", imageSrc: "https://storage.googleapis.com/webild/users/user_3Fp4xaa76hoCedVVjKM5K4THBWm/uploaded-1782762701004-dlql3oc8.jpg" },
             { title: "Tiendas online", description: "E-commerce optimizados para maximizar las ventas y conversiones.", href: "#", imageSrc: "https://storage.googleapis.com/webild/users/user_3Fp4xaa76hoCedVVjKM5K4THBWm/uploaded-1782762413005-7patmfyt.jpg" },
             { title: "Landing Pages", description: "Páginas diseñadas específicamente para atraer y convertir clientes.", href: "#", imageSrc: "http://img.b2bpic.net/free-photo/innovation-development-rocket-graphic-concept_53876-120019.jpg" },
             { title: "Optimización SEO", description: "Posicionamiento en buscadores para atraer tráfico de calidad.", href: "#", imageSrc: "https://storage.googleapis.com/webild/users/user_3Fp4xaa76hoCedVVjKM5K4THBWm/uploaded-1782762441923-xfcxioyd.jpg" },
