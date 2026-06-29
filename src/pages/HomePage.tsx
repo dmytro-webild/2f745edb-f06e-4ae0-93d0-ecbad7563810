@@ -6,7 +6,6 @@ import FeaturesRevealCardsBento from '@/components/sections/features/FeaturesRev
 import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarousel';
 import MetricsSimpleCards from '@/components/sections/metrics/MetricsSimpleCards';
 import TestimonialTrustCard from '@/components/sections/testimonial/TestimonialTrustCard';
-import { Rocket, Search, Smartphone } from "lucide-react";
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 
 export default function HomePage() {
