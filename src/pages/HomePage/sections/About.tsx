@@ -5,8 +5,8 @@ import React from 'react';
 import AboutFeaturesSplit from '@/components/sections/about/AboutFeaturesSplit';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 
-export default function AboutSection): React.JSX.Element {
-  return 
+export default function AboutSection(): React.JSX.Element {
+  return (
     <div id="about" data-section="about">
         <SectionErrorBoundary name="about">
               <AboutFeaturesSplit
