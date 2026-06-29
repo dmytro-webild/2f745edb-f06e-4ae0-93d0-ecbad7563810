@@ -5,8 +5,8 @@ import React from 'react';
 import FeaturesRevealCardsBento from '@/components/sections/features/FeaturesRevealCardsBento';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 
-export default function ServiciosSection(): React.JSX.Element {
-  return (
+export default function ServiciosSection): React.JSX.Element {
+  return 
     <div id="servicios" data-section="servicios">
         <SectionErrorBoundary name="servicios">
               <FeaturesRevealCardsBento
