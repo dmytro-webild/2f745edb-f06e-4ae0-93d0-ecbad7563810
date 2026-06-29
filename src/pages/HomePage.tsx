@@ -1,6 +1,6 @@
 // AUTO-GENERATED shell by per-section-migrate.
 // Section bodies live in ./<PageBase>/sections/<X>.tsx. Edit the section
-// files directly. Non-block content (wrappers, non-inlinable sections) is
+// files directly. Non-block content wrappers, non-inlinable sections) is
 // preserved inline; extracted section blocks become <XSection/> refs.
 
 import React from 'react';
@@ -13,8 +13,8 @@ import ResenasSection from './HomePage/sections/Resenas';
 import FaqSection from './HomePage/sections/Faq';
 import ContactoSection from './HomePage/sections/Contacto';
 
-export default function HomePage(): React.JSX.Element {
-  return (
+export default function HomePage): React.JSX.Element {
+  return 
 <>
   <HeroSection />
 
