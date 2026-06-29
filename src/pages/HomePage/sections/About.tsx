@@ -18,7 +18,7 @@ export default function AboutSection(): React.JSX.Element {
             { icon: "Search", title: "SEO Optimizado", description: "Estructura preparada para Google." },
             { icon: "Smartphone", title: "Responsive", description: "Adaptación perfecta en cualquier dispositivo." },
           ]}
-          imageSrc="https://storage.googleapis.com/webild/users/user_3Fp4xaa76hoCedVVjKM5K4THBWm/uploaded-1782761904329-d81uleag.png"
+          imageSrc="https://storage.googleapis.com/webild/users/user_3Fp4xaa76hoCedVVjKM5K4THBWm/uploaded-1782761981551-pewklgph.jpg"
         />
         </SectionErrorBoundary>
       </div>
