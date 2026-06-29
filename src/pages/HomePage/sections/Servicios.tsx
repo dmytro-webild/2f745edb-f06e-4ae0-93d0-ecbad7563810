@@ -19,7 +19,7 @@ export default function ServiciosSection(): React.JSX.Element {
             { title: "Landing Pages", description: "Páginas diseñadas específicamente para atraer y convertir clientes.", href: "#", imageSrc: "https://storage.googleapis.com/webild/users/user_3Fp4xaa76hoCedVVjKM5K4THBWm/uploaded-1782763662907-g6087r6e.jpg" },
             { title: "Optimización SEO", description: "Posicionamiento en buscadores para atraer tráfico de calidad.", href: "#", imageSrc: "https://storage.googleapis.com/webild/users/user_3Fp4xaa76hoCedVVjKM5K4THBWm/uploaded-1782762441923-xfcxioyd.jpg" },
             { title: "Diseño Responsive", description: "Adaptabilidad total en todos los dispositivos modernos.", href: "#", imageSrc: "https://storage.googleapis.com/webild/users/user_3Fp4xaa76hoCedVVjKM5K4THBWm/uploaded-1782763083381-9iht6osy.png" },
-            { title: "Mantenimiento web", description: "Actualizaciones constantes para mantener tu web al día.", href: "#", imageSrc: "http://img.b2bpic.net/free-photo/3d-render-pos-terminal-paper-check-bill-cards_107791-17432.jpg" },
+            { title: "Mantenimiento web", description: "Actualizaciones constantes para mantener tu web al día.", href: "#", imageSrc: "https://storage.googleapis.com/webild/users/user_3Fp4xaa76hoCedVVjKM5K4THBWm/uploaded-1782764876736-4wlg1pju.png" },
             { title: "Velocidad web", description: "Optimización de tiempos de carga críticos para el usuario.", href: "#", imageSrc: "https://storage.googleapis.com/webild/users/user_3Fp4xaa76hoCedVVjKM5K4THBWm/uploaded-1782763123545-4li9lcnp.png" },
           ]}
         />
