@@ -5,8 +5,8 @@ import React from 'react';
 import FaqSimple from '@/components/sections/faq/FaqSimple';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 
-export default function FaqSection): React.JSX.Element {
-  return 
+export default function FaqSection(): React.JSX.Element {
+  return (
     <div id="faq" data-section="faq">
         <SectionErrorBoundary name="faq">
               <FaqSimple
