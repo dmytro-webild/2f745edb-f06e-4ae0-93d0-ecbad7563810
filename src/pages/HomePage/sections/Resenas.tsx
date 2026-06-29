@@ -42,7 +42,7 @@ export default function ResenasSection(): React.JSX.Element {
             </div>
 
             <TestimonialTrustCard
-              quote="Nota: Estas reseñas son ejemplos de diseño y deberán ser reemplazadas por testimonios reales de clientes."
+              quote=""
               rating={5}
               author="Reseñas demostrativas "
               avatars={[
